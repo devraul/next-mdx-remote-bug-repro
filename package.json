@@ -2,6 +2,10 @@
   "name": "monorepo",
   "private": true,
   "workspaces": {
+    "nohoist": [
+      "**/next-mdx-remote",
+      "**/next-mdx-remote/**"
+    ],
     "packages": [
       "apps/*"
     ]
